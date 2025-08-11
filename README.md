@@ -1,0 +1,4 @@
+This repository is part of the work submetted for a master's thesis. 
+
+You will find all the code ran for it. The simulation code is in ```./simulation```. Some example of simulation results are to be find at ```./ouputs``` For obvious reason of storage, all the data is not in that folder. Please ask me if you want my runs. However, the whole analysis has been done from this type of file and summarised if ```./analysis/datasets```. There is also the plots generated from there. They include the heatmaps of the report. If you look at the GUI, please, do not take it into account, it is an uncomplete scheme (CLI is still more efficient).
+Last note, files ```./simulation/prod_*.py``` are those used to lauch batches of simulations instead of using ```./simulation/main.py```

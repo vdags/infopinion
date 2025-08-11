@@ -1,0 +1,14 @@
+NB_NODES = 100
+ENCODING_DIM = 10
+TIMESTEPS = 100
+INIT_FUNC =<function independent_uniform_distribution at 0x000001E7F221E830>
+UPDATE_INFO = <function latest_info_random at 0x000001E7F221EB90>
+UPDATE_OPINIONS =     list_opinion_update=[lambda x : update_opinion.biased_assimilation  (x,i[0],i[1]) 
+                         for i in update_opinion_couple_param]
+
+MSG_GENERATOR =     list_msg_generator=[lambda x :msg_gen.one_info_dist_global(x,nb_nodes,i) for i in msg_gen_one_info_dist_global_coef]
+
+AVG_OPINION_FINAL: [0.6, 0.5999999999454073, 0.5009788932785849, 0.3999999999995859, 0.39999999999999797, 0.30000000000000615, 0.3033698382664, 0.4000000000000001, 0.39999999931077534, 0.40000000000000446]
+STD_OPINION_FINAL: [0.48989794855663554, 0.4898979485120607, 0.4990287602856412, 0.48989794855610863, 0.4898979485566331, 0.45825756949557966, 0.45615819550856923, 0.48989794855663554, 0.4898979476961619, 0.489897948556632]
+update_opinion_(coef,bias) = (1, 1)
+msg_gen_one_info_dist_global_coef = 0.1
